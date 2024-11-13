@@ -1,0 +1,21 @@
+#first-text{
+    color: red;
+    font-size: 30px;
+}
+.first-div{
+    background-color: #427272;
+}
+.header-main{
+    display: flex;
+}
+.header-menu {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+}
+.first-para{
+    color: blue;
+}
+.first-para span{
+    color:yellow;
+}
