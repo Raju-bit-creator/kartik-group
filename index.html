@@ -8,13 +8,22 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="styles/style.css">
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -26,13 +35,16 @@
             <a class="nav-link" href="#">Link</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
               Dropdown
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li>
@@ -47,13 +59,15 @@
       </div>
     </div>
   </nav>
-  <script  src="./script/alert.js"></script>
- 
-  
+  <script src="./script/alert.js"></script>
+
+
   <div class="container first-div">
-   <a href="https://www.mindrisers.com.np/" target="_blank"> <h2 id="first-text">
-      hello world
-    </h2></a>
+    <a href="https://www.mindrisers.com.np/" target="_blank">
+      <h2 id="first-text">
+        hello world
+      </h2>
+    </a>
     <p class="first-para">this is <span> kartik group</span> <br><br> this is second paragraph </p>
   </div>
   <div class=" header-main ">
@@ -68,7 +82,38 @@
     </ul>
   </div>
   <div class="container">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14130.9270507147!2d85.32951860264002!3d27.694684219033558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb199a06c2eaf9%3A0xc5670a9173e161de!2sNew%20Baneshwor%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1731667757208!5m2!1sen!2snp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14130.9270507147!2d85.32951860264002!3d27.694684219033558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb199a06c2eaf9%3A0xc5670a9173e161de!2sNew%20Baneshwor%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1731667757208!5m2!1sen!2snp"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div class="kartik-group">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <img src="./images/mac.jpeg" alt="form image">
+        </div>
+      </div>
+    </div>
+
   </div>
 
 
@@ -129,13 +174,41 @@
     </tbody>
   </table>
   <div class="container">
-    <p><b>Lorem ipsum </b> <i>dolor sit</i> <strong>amet consectetur adipisicing</strong>  elit. A placeat dolores voluptatibus modi ea illo.</p>
-  </div >
+    <p><b>Lorem ipsum </b> <i>dolor sit</i> <strong>amet consectetur adipisicing</strong> elit. A placeat dolores
+      voluptatibus modi ea illo.</p>
+  </div>
   <div class="container">
-   <a href="https://x.com/?lang=en" target="_blank"> <img src="./images/mac.jpeg" alt="macbook images"></a>
+    <a href="https://x.com/?lang=en" target="_blank"> <img src="./images/mac.jpeg" alt="macbook images"></a>
   </div>
   <marquee><b>100$ lottery pls fill the form below</b></marquee>
-  
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Location</h4>
+          <p>location: baneshwor</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14130.9270507147!2d85.32951860264002!3d27.694684219033558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb199a06c2eaf9%3A0xc5670a9173e161de!2sNew%20Baneshwor%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1731667757208!5m2!1sen!2snp"
+            width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+        <div class="col-md-4">
+          <h4>Quick links</h4>
+          <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4>About us</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam nemo aut eligendi voluptas enim officiis, id earum sunt sequi hic voluptatibus neque, distinctio ducimus obcaecati beatae quae explicabo dicta minima.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
