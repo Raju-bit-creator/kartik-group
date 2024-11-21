@@ -4,10 +4,12 @@
   font-size: 50px;
   color: red;
 }
-.fa-house{
+
+.fa-house {
   color: rebeccapurple;
   font-size: 40px;
 }
+
 .first-div a {
   text-decoration: none;
 
@@ -18,11 +20,12 @@
 }
 
 .header-main {
-  
+
   background-color: #427272;
   padding: 10px;
 }
-.logo-img img{
+
+.logo-img img {
   width: 100px;
   height: 100px;
 }
@@ -35,24 +38,28 @@
   color: #fff;
 
 }
-.last-li{
+
+.last-li {
   color: yellow !important;
 }
+
 /* ul, a{
   color: #fff;
   text-decoration: none;
 } */
-.header-menu a{
+.header-menu a {
   color: #fff;
   text-decoration: none;
 }
-.header-menu ul{
+
+.header-menu ul {
   float: right;
 }
+
 .header-menu li {
   margin: 0 15px;
   margin-top: 10px !important;
-  
+
 }
 
 .first-para {
@@ -90,23 +97,42 @@ thead {
   padding: 80px 0px;
   color: #fff;
 }
-.footer-list li{
+
+.footer-list li {
   list-style: none;
 }
-.cards{
-  /* background: #427272; */
+
+.cards {
+  background: #427272;
   cursor: pointer;
+  position: relative;
+  z-index: 2;
   /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.card-part{
-  padding: 80px 0px;
+
+.card-part {
+background: #3cc512;
+  position: relative;
 }
-.cards:hover{
+
+.card-part::before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 0;
+  background: #000;
+  
+}
+
+
+.cards:hover {
   background: #000;
   color: #fff;
 }
-.cards img{
+
+.cards img {
   width: 100%;
 }
 
@@ -114,19 +140,23 @@ thead {
   position: relative;
   z-index: 1;
 }
-.card-body{
+
+.card-body {
   padding: 25px;
 }
+
 @media only screen and (max-width: 768px) {
-  #first-text{
+  #first-text {
     color: blue;
   }
-  
+
 }
+
 @media only screen and (max-width: 1024px) {
 
-  #first-text{
+  #first-text {
     color: rgb(0, 255, 13);
   }
 }
+
 /*assignment: explore before and after css property */
