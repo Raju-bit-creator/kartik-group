@@ -42,7 +42,7 @@ console.log(a);
 
    let x = "kartik-group"
    let y= 10
-   let z= true   
+   let z= true 
 
    console.log( typeof x , typeof y, typeof z);
    
