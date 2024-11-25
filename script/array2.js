@@ -61,24 +61,51 @@ let fruits = [
         scientificName: "xyz",
         prices: [
             {
-                country: Nepal,
+                country: "Nepal",
                 price: 20
             },
             {
-                country: India,
+                country: "India",
                 price: 30
             },
             {
-                country: Australia,
+                country: "Australia",
                 price: 2
             },
             {
-                country: USA,
+                country: "USA",
+                price: 1
+            }
+        ]
+    },
+    {
+        name: "mango",
+        scientificName: "xyz",
+        prices: [
+            {
+                country: "Nepal",
+                price: 20
+            },
+            {
+                country: "India",
+                price: 30
+            },
+            {
+                country: "Australia",
+                price: 2
+            },
+            {
+                country: "USA",
                 price: 1
             }
         ]
     }
 ]
+ 
+fruits[1].prices.map((e)=>{
+    console.log(`${e.country} price of orange ${e.price}`);
+    
+})
 // assignment price of orange in different country
 
 
