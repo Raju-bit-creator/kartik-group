@@ -126,6 +126,23 @@ let num1 =[1, 2, 3]
 let num2= [...num1 , 5, 6, 7,8] 
 console.log(num2);
 
+// parse && stringify
+
+const jsonString ='{"name":"alisha", "age":20}'
+// const jsonObject =JSON.parse(jsonString)
+// console.log(jsonObject.name);
+const jsonObject= jsonString.name
+console.log(jsonObject);
+
+
+const jsonObject1 = { name: "Raju", age: 30 };
+const jsonString1 = JSON.stringify(jsonObject1);
+console.log(jsonString);
+
+
+
+
+
 
 
 
