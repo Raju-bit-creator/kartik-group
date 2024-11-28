@@ -92,8 +92,8 @@ let countries = [
 //  let x = findCountry1("singapore")
 //  console.log(x);
 
- function getCountryCode(countryName) {
-  
+function getCountryCode(countryName) {
+
     let country = countries.find(c => c.name.toLowerCase() === countryName.toLowerCase().trim());
     if (country) {
         return country.code;
@@ -103,35 +103,35 @@ let countries = [
 }
 
 
-console.log(getCountryCode(" nepal ")); 
+console.log(getCountryCode(" nepal "));
 // console.log(getCountryCode("India")); 
 // console.log(getCountryCode("USA"));   
 // console.log(getCountryCode("China"));
-  
-let sentence= "he/is/a/good/boy"
+
+let sentence = "he/is/a/good/boy"
 let wordSeparator = sentence.split("/")
 console.log(wordSeparator);
 console.log(wordSeparator.length);
- 
-let num= [1, 2, 3,4]
+
+let num = [1, 2, 3, 4]
 let newNum = num.push(5)
 console.log(newNum);
 console.log(num);
-let removeNum= num.pop()
+let removeNum = num.pop()
 console.log(num);
 // assignment shift, unshift, includes, charAt method of array
 
 //this is spread operator
-let num1 =[1, 2, 3]
-let num2= [...num1 , 5, 6, 7,8] 
+let num1 = [1, 2, 3]
+let num2 = [...num1, 5, 6, 7, 8]
 console.log(num2);
 
 // parse && stringify
 
-const jsonString ='{"name":"alisha", "age":20}'
+const jsonString = '{"name":"alisha", "age":20}'
 // const jsonObject =JSON.parse(jsonString)
 // console.log(jsonObject.name);
-const jsonObject= jsonString.name
+const jsonObject = jsonString.name
 console.log(jsonObject);
 
 
@@ -140,6 +140,11 @@ const jsonString1 = JSON.stringify(jsonObject1);
 console.log(jsonString);
 
 
+let numbers = [1, 2, 3, 4]
+let double = numbers.map((num) => {
+    return num + 2
+})
+console.log(double);
 
 
 
@@ -149,10 +154,13 @@ console.log(jsonString);
 
 
 
- 
-  
 
-    
+
+
+
+
+
+
 
 
 
