@@ -132,10 +132,7 @@ promsie.then((res)=>{
     console.log("response", res);
     
 })
-.catch((err)=>{
-    console.log("this is error", err);
-    
-})
+
 console.log(promsie);
 
 
