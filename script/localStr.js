@@ -6,4 +6,5 @@ localStorage.setItem('token', JSON.stringify({token: 'token'}))
 let token= localStorage.getItem('token')
 let token1= JSON.parse(localStorage.getItem('token'))
 
-let name= localStorage.getItem('name')
+
+let name= localStorage.getItem('email')

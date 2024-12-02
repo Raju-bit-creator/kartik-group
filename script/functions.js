@@ -127,9 +127,10 @@ let promsie =new Promise((resolve, reject) => {
             }
         })
     },3000);
+
 })
-promsie.then((res)=>{
-    console.log("response", res);
+promsie.then((res1)=>{
+    console.log("response", res1);
     
 })
 
