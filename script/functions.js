@@ -131,7 +131,7 @@ let promsie =new Promise((resolve, reject) => {
 })
 
 
- console.log("hello karitk class");
+ console.log("hello karitk class" );
  
 promsie.then((res1)=>{
     console.log("response", res1);
