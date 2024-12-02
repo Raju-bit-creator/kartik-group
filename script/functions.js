@@ -129,6 +129,10 @@ let promsie =new Promise((resolve, reject) => {
     },3000);
 
 })
+
+
+ console.log("hello karitk class");
+ 
 promsie.then((res1)=>{
     console.log("response", res1);
     
